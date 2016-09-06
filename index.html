@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<head> 
+	<title>Circles</title>
+	<style>         
+		#canvas {
+			margin-top: 10px;
+			border: 1px solid black; 
+		}
+	</style> 
+</head>
+<body>
+	<div>
+		<input id='animateButton' type='button' value='Pause'/>
+		<input id='Fill' type='button' value='Too Much!'/>
+		Speed: <input id="range" type='range' min="0" max="5" value="1" step="0.1">
+		<input id='restart' type='button' value='Restart'/>
+	</div>
+	<p>Point represents an moving airplane. Circle represents a sound wave. Sonics can be observed.</p>
+
+	<canvas id='canvas' width='700' height='500'>Canvas not supported </canvas> 
+	<script src='circles.js'></script> 
+</body> 
+</html>
